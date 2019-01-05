@@ -5,28 +5,34 @@
 }
 
 body {
-  background-color: #AFDADB;
+  background-color: white;
 }
 
 h1 {
-  /* color: #3E1B11; */
-  color: #fff;
+  color: #3E1B11;
   font-family: 'Lora', serif;
-  font-size: 32px;
+  font-size: 36px;
   letter-spacing: -1px;
   margin: 0;
-  padding: 0 0 10px 0;
+  padding: 0 0 30px 0;
+}
+
+@media screen and (min-width: 400px){
+    h1 {
+      font-size: 64px;
+      padding: 0 0 50px 0;
+    }
 }
 
 p {
-  color: #fff;
+  color: #3E1B11;
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
 }
 
 a {
-  color: #fff;
+  color: #3E1B11;
   font-weight: bold;
   text-decoration: none;
 }
@@ -38,42 +44,4 @@ a {
   min-height: 95vh;
   justify-content: center;
   width: 100%;
-}
-
-.w {
-  align-items: center;
-  background-color: #5789CD;
-  border: 10px solid #F68351;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 10px;
-  min-height: 75vh;
-  overflow: hidden;
-  padding: 30px;
-}
-
-.blob {
-  background-color: #EBD72E;
-  border: 5px solid #FFF;
-  border-radius: 50%;
-  bottom: -100px;
-  height: 50vw;
-  position: relative;
-  width: 50vw;
-}
-
-@media screen and (min-width: 400px){
-
-  h1 {
-    font-size: 54px;
-    padding: 0 0 20px 0;
-  }
-}
-
-@media screen and (min-width: 700px){
-  .blob {
-    height: 25vw;
-    width: 25vw;
-  }
 }
