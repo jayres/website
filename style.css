@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #AFDADB;
 }
 
 h1 {
@@ -16,14 +16,6 @@ h1 {
   letter-spacing: -1px;
   margin: 0;
   padding: 0 0 10px 0;
-}
-
-@media screen and (min-width: 400px){
-
-  h1 {
-    font-size: 54px;
-    padding: 0 0 20px 0;
-  }
 }
 
 p {
@@ -50,11 +42,12 @@ a {
 
 .w {
   align-items: center;
-  background-color: #AFDADB;
-  border: 8px solid #F68351;
+  background-color: #5789CD;
+  border: 10px solid #F68351;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 10px;
   min-height: 75vh;
   overflow: hidden;
   padding: 30px;
@@ -62,10 +55,25 @@ a {
 
 .blob {
   background-color: #EBD72E;
-  border: 3px solid #FFF;
+  border: 5px solid #FFF;
   border-radius: 50%;
   bottom: -100px;
-  height: 25vw;
+  height: 50vw;
   position: relative;
-  width: 25vw;
+  width: 50vw;
+}
+
+@media screen and (min-width: 400px){
+
+  h1 {
+    font-size: 54px;
+    padding: 0 0 20px 0;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .blob {
+    height: 25vw;
+    width: 25vw;
+  }
 }
