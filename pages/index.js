@@ -1,4 +1,3 @@
-import Layout from "../components/Layout";
 import styled from "styled-components";
 
 const Headline = styled.h1`
@@ -18,19 +17,17 @@ const Section = styled.section`
 `;
 
 export default () => (
-  <Layout>
-    <main>
-      <Section>
-        <Headline>Sunny Day</Headline>
-        <SubTitle>
-          A digital studio building maintainable and performant applications,
-          platforms, and websites.
-        </SubTitle>
-        <p>
-          Want to work with us? email{" "}
-          <a href="mailto:hi@sunnday.tech">hi@sunnyday.tech</a>
-        </p>
-      </Section>
-    </main>
-  </Layout>
+  <main>
+    <Section>
+      <Headline>Sunny Day</Headline>
+      <SubTitle>
+        A digital studio building maintainable and performant applications,
+        platforms, and websites.
+      </SubTitle>
+      <p>
+        Want to work with us? email{" "}
+        <a href="mailto:hi@sunnday.tech">hi@sunnyday.tech</a>
+      </p>
+    </Section>
+  </main>
 );
