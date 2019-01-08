@@ -1,0 +1,11 @@
+{
+  "name": "sunny_day",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sunnydaynyc/website.git",
+  "author": "Nick Beattie <nick@nickbytes.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.2"
+  }
+}
