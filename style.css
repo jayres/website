@@ -9,17 +9,18 @@ body {
 }
 
 h1 {
-  color: #3E1B11;
+  color: #FCB400;
   font-family: 'Lora', serif;
-  font-size: 36px;
+  font-size: 96px;
   letter-spacing: -1px;
+  line-height: 1;
   margin: 0;
   padding: 0 0 30px 0;
 }
 
 @media screen and (min-width: 400px){
     h1 {
-      font-size: 64px;
+      font-size: 140px;
       padding: 0 0 50px 0;
     }
 }
@@ -37,11 +38,15 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: rgb(232, 50, 0);
+}
+
 .c {
   align-items: center;
   display: flex;
   flex-direction: column;
-  min-height: 95vh;
+  min-height: 85vh;
   justify-content: center;
   width: 100%;
 }
